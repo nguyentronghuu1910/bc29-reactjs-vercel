@@ -36,7 +36,7 @@ export default function MovieList() {
                      <h5 className="card-title">{ele.tenPhim}</h5>
                      <Button
                         size='large'
-                        type='ghost'
+                        type='danger'
                         onClick={() => navigate(`/movie/${ele.maPhim}`)}
                      >XEM CHI TIẾT</Button>
                   </div>
